@@ -1,5 +1,5 @@
 module.exports = {
-  content: ['./src/**/*.{html,js}', './src/index.html'], // Update paths as necessary
+  content: ['./public/**/*.html', './public/js/**/*.js'], // Include HTML files from public folder and JavaScript files from js folder and its subfolders
   theme: {
     extend: {},
   },

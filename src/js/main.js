@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
   function includeHTML() {
     var elements = document.querySelectorAll('[id]');
     elements.forEach(function (el) {
-      var file = './src/components/' + el.id + '.html';
+      var file = './Bajra/src/components/' + el.id + '.html';
       fetch(file)
         .then(response => response.text())
         .then(data => el.innerHTML = data)

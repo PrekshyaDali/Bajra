@@ -1,5 +1,5 @@
 module.exports = {
-  content: ['./src/**/*.{html,js}', './src/index.html'], // Update paths as necessary
+  content: ['./src/**/*.{html,js}', './public/index.html'], // Update paths as necessary
   theme: {
     extend: {},
   },
